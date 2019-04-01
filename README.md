@@ -14,7 +14,7 @@ Kanban Board!
 - Click on "Create Task" to add a new task
 - Click on task to edit a specific task
 - You can delete, edit or move the task
-- Tasks are sorted by creatin time
+- Tasks are sorted by their created time
 
 
 ## TODOs
