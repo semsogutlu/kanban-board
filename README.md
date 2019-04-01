@@ -7,7 +7,7 @@ Kanban Board!
 - Then run `yarn run build`
 - Open `index.html` in your browser
 - Add Tasks!
-- If you don't wanna install locally, you can run it online [here](https://semsogutlu.github.io/kanban/src/index.html)
+- If you don't wanna run locally, you can run it [here](https://semsogutlu.github.io/kanban-board/src/index.html)
 
 
 ## How it works?
