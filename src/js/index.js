@@ -10,6 +10,10 @@ this file does following things:
             [---] No dependencies
             [---] Vanilla JS love simplicity if you can :)
     [-] Wires up the title field validation
+TODO: As a developer, I would like to create a test suite and write some tests
+in order to make sure that the code is covered and working.
+    [-] Implement test suite
+    [-] Write tests
 */
 
 
