@@ -1,0 +1,22 @@
+{
+  "name": "kanbanboard",
+  "version": "1.0.0",
+  "description": "Kanban Board!",
+  "main": "dist/index.js",
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "lint": "eslint src/",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.14.1",
+    "js-datepicker": "^4.0.10",
+    "webpack": "^4.29.5"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.3"
+  }
+}

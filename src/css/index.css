@@ -1,0 +1,280 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* generic body element */
+body {
+    background-color: #F4F3F8;
+}
+
+/* wiring up the wrapper */
+.wrapper {
+    width: 53%;
+    margin: 0 auto;
+    padding-top: 70px;
+    display: -webkit-flex; 
+    display: -ms-flexbox; 
+    display: flex;
+}
+
+/* generic input text area styles */
+input,textarea {
+    width: 100%; 
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    font-size: 11px;
+    font-weight: 100;
+    width: 100%;
+    padding: 10px 10px 10px 15px;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    border: 2px solid #ededed;
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
+ :-moz-placeholder {
+    font-style: italic;  
+ }
+ ::-moz-placeholder {
+    font-style: italic;  
+ }
+ :-ms-input-placeholder {  
+    font-style: italic; 
+ }
+
+
+ /* generic swimlane styles */
+.swimlane {
+    float:left; 
+    width:32%; 
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.swimlane__title {
+    margin: 25px 0 20px 25px;
+}
+
+.last {
+    margin: 0; 
+}
+
+.notlast {
+    margin: 0 2% 0 0;
+}
+
+.headerfont {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dummydiv {
+    height: 36px;
+}
+
+ /* create task button styles */
+.createbutton {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 0 0 10px 10px;
+  border: none;
+  margin-top: auto;
+}
+
+.bg__blue{
+    background-color: #4EAAF3
+}
+
+.bg__purple {
+    background-color: #7F58FB
+}
+
+
+
+ /* add/edit/delete modal styles */
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 40px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.modal__content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 10px 30px 30px 30px;
+    text-align: left;
+    width: 25%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.modal__form {
+    margin: 10px 0 0 0;
+}
+
+div > textarea {
+    resize: none;
+    height: 75px;
+}
+
+.modal__dateinput {
+    margin-top: -4px
+}
+
+/*
+modal button styles
+*/
+
+.modal__buttonwrapper {
+    overflow:auto;
+}
+
+.modal__buttonwrapper>button {
+    padding: 10px 15px 10px 15px;
+    font-size: 12px;
+    font-weight: 300;
+    border: none;
+    cursor:pointer;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    outline:none;
+    border-radius: 5px;
+}
+
+.modal__cancelbutton {
+    color: #7F58FB;
+    background-color: Transparent;
+    float: right;
+}
+
+.modal__deletebutton {
+    background-color: #FC0E2B;
+    color: white;
+    float: left;
+    display: none;
+}
+
+.modal__createbutton {
+    background-color: #7F58FB;
+    color: white;
+    float: right;
+}
+
+.modal__createbutton:disabled{
+    background-color: rgb(127, 88, 251, .5)
+}
+
+/*
+Task styles
+*/
+
+.swimlane__task {
+    margin: 5px 5px 10px 5px;
+    border-radius: 5px;
+    border: 2px solid #ededed;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.swimlane__task__header {
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.swimlane__task__description {
+    padding: 0 20px 10px 20px;
+    font-size: 12px;
+    font-weight: 100;
+    color: gray;
+}
+.swimlane__task__duedate {
+    padding: 0 20px 10px 20px;
+    font-size: 12px;
+    font-weight: 100;
+    font-style: italic
+}
+
+.swimlane__task__duedateicon {
+    margin-right: 5px;
+}
+
+.purple {
+    color: #7F58FB
+}
+
+.green {
+    color: #22D0BD
+}
+
+.taskbutton {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+.taskbutton__full {
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+}
+
+.taskbutton__half {
+    width: 50%
+}
+
+.taskbutton__half__right {
+    border-radius: 0 0 5px 0;
+}
+
+.taskbutton__half__left {
+    border-radius: 0 0 0 5px;
+}
+
+.taskbutton__blue {
+    border: 2px solid #4EAAF3;
+    background-color: #4EAAF3;
+}
+
+.taskbutton__purple {
+    border: 2px solid #7F58FB;
+    background-color: #7F58FB;
+}
+
+.taskbutton__green {
+    border: 2px solid #22D0BD;
+    background-color: #22D0BD;
+}
+
+
+/* 
+datepicker style overrides
+TODO: As a developer, I would like to refactor styling so that I don't have to use !important
+*/
+.qs-datepicker {
+    width: 100% !important;
+    border: 0 !important;
+    margin-top: 3px !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
+
+.qs-controls {
+    background-color: white !important;
+}

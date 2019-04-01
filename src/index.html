@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+        <link rel="stylesheet" href="./css/datepicker-min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="wrapper">
+         
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal">
+            <div class="modal__content">
+                <h4>
+                    Create New Task
+                </h4>
+                <div class="modal__form">
+                    <input id="titleinput" placeholder="Title" type="text">
+                    <textarea id="descriptioninput" placeholder="Description (Optional)"></textarea>
+                    <input id="duedateinput" readonly="readonly" placeholder="Due On" class="modal__dateinput" type="text">
+                    <div class="modal__buttonwrapper">
+                        <button id="delete" class="modal__deletebutton">Delete</button>
+                        <button id="submit" disabled="true" class="modal__createbutton">Create</button>
+                        <button id="cancel" class="modal__cancelbutton">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="../dist/index.js"></script>
+   
+</html>
